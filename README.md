@@ -5,18 +5,20 @@ I am Meheer, I've wanted to make a website in which i wanted to combine all my w
 <br><br>
 I've made made 6 projects in JavaScript and they are :
 <ul>
-  <li><a href="">Quote Machine</a></li>
-  <li><a href="">Markdown Previwer</a></li>
-  <li><a href="">Drum Machine</a></li>
-  <li><a href="">Calculator</a></li>
-  <li><a href="">Pomodoro Clock</a></li>
-  <li><a href="">Location Finder</a></li>
+  <li><a href="https://codepen.io/zeus17/full/VwbPGvx">Quote Machine</a></li>
+  <li><a href="https://codepen.io/zeus17/full/MWmmGRe">Markdown Previwer</a></li>
+  <li><a href="https://codepen.io/zeus17/full/YzVQegM">Drum Machine</a></li>
+  <li><a href="https://codepen.io/zeus17/full/rNmGZyo">Calculator</a></li>
+  <li><a href="https://codepen.io/zeus17/pen/oNWqVpZ">Pomodoro Clock</a></li>
+  <li><a href="https://all-my-projects.meheer007.repl.co/#f6">Location Finder</a></li>
 </ul>
-<br><br>
+<br>
 I would try my best to keep this updated with all the new projects i make.
 <br><br>
 Pls feel free to use this to make your own website.<br>
 All the JavaScript codes is easy to understand.<br>
 The css might be cramped up will soon try to fix these issues.<br>
+<br><br>
+Here is my <a href="https://codepen.io/zeus17">Codepen</a> and here is my <a href="https://replit.com/@Meheer007">Replit</a> account and this is my Instagram account
 <br><br>
 THANK YOU
