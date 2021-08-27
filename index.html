@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="">
+    <meta charset="utf-8">
+    <meta name="description" content="A Free Template">
+    <meta name="viewport" content="width=device-width">
+    <title>Template</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/json3/3.3.3/json3.min.js" integrity="sha512-tbfBlQc+SIzEWNdV6+YHk/zNMEAX3tLlaELHbR8VUfx5DQ+G7aHdrLvvdVSI+P7JbgwsuSxPwJ+L7kBcUUrEfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js'></script>
+    <script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.0/marked.min.js" integrity="sha512-+yBiQ6q3TDGoiassGMt28VYghfGBtA74mN2W8oNTCi49BsvmBfOSoMMGRj6TYRV7CF2URkpyS61uJBgC3H/uzA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"type="text/css"/>    
+    <meta name="keywords" content="Meheer007,meheer007,meheer007 bio,repl.it">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      	<a class="logo" href="#home">
+        <img src="https://newsletter-images--timmy-i-chen.repl.co/logo-light.png" alt="repl logo"/></a>
+		
+<nav>
+ <ul class="nav-bar">
+  <div class="bg"></div>
+  <li><a class="nav-link" href="#welcome">Home</a></li>
+
+ <div class="ml">
+  <li>
+ <a class="nav-link">Projects</a>
+  </li>
+  <div class="sl">
+    <a href="#f1">Quote Machine</a>
+    <a href="#f2">Markdown</a>
+    <a href="#f3">Drums</a>
+    <a href="#f4">Calculator</a>
+    <a href="#f5">Pomodoro Clock</a>
+    <a href="#f6">Location</a>
+  </div>
+ </div>
+  <li><a class="nav-link " href="#contact">Contact</a></li>
+ </ul>
+        <div class="hamburger">
+	        <div class="line1"></div>
+                <div class="line2"></div>
+	        <div class="line3"></div>
+        </div>
+ </nav>
+ </header>
+
+    <div id="welcome">
+
+    <div class="bg" ></div>
+    <div class="text center">
+ <h3>HELLO<hr></h3>
+   
+      <p>Im Meheer.<br>Ive made a few projects and would like to show it.<br>Hope you guys would like it.</p>
+      </div>
+    </div>
+
+<main id="projects">
+
+<div id="f1"> 
+  <span id="first"></span>
+</div>
+<div id="f2"> 
+  <h3>Markdown Previewer</h3>      
+  <span id="second"></span>
+</div>
+<div id="f3">
+  <span id="third"></span>
+</div>
+<div id="f4">
+  <h3>Calculator</h3>      
+  <span id="fourth"></span>
+</div>
+<div id="f5">
+  <h3>Pomodoro Clock</h3>      
+  <span id="fifth"></span>
+</div>
+<div id="f6">
+  <h3>Find Your location?</h3>      
+  <span id="data"></span>
+  <r onclick="loco()" class="fl">Find Location</r>
+</div>
+
+
+</main>
+
+<section  id="contact" class="text center c">
+    <div>
+            
+       <h3 >Contact.<hr></h3>
+	<p>Feel free to contact me on my social media.</p>
+	<div class="social-media">
+		<a href="https://codepen.io/zeus17" target="_blank"><i id="ci" class='fab fa-codepen'></i></a>
+		<a href="https://www.freecodecamp.org/zeus007" target="_blank"><i id="ci" class='fab fa-free-code-camp'></i></a>
+		<a href="https://github.com/Meheer17" target="_blank"><i id="ci" class='fab fa-github'></i></a>
+		<a href="https://www.instagram.com/meheer_007/?hl=en" target="_blank"><i id="ci" class='fab fa-instagram'></i></a>
+                <a href="tel:+918310697451"><i id="ci" class='fas fa-mobile-alt'></i></a>
+	</div>
+</section>
+
+
+
+<footer class="copyright">© 2021 
+	<a href="https://replit.com/@Meheer007" target="_blank"> Meheer.</a>
+</footer>
+
+    <script src="script.js"></script> 
+    <script src="second.js" type="text/babel"></script>	      
+    <script src="first.js" type="text/babel"></script>
+    <script src="third.js" type="text/babel"></script>
+    <script src="fourth.js" type="text/babel"></script>
+    <script src="five.js" type="text/babel"></script>
+    <script>
+    function loco(){
+      if (navigator.geolocation){
+  navigator.geolocation.getCurrentPosition(function(position) {
+    document.getElementById('data').innerHTML="<h1>latitude: </h1>" + "<h3>" + position.coords.latitude + "</h3>"+ "<br><h1>longitude: </h1>" + "<h3>" + position.coords.longitude + "</h3>";
+  });
+  };
+};
+    </script>
+  </body>
+</html>
