@@ -1,3 +1,6 @@
+// This is the main js for the normal functioning of the website
+
+
 $(window).on('scroll', function(){
 if($(window).scrollTop()){
   $('header').addClass('nav-show');
