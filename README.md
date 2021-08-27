@@ -19,6 +19,6 @@ Pls feel free to use this to make your own website.<br>
 All the JavaScript codes is easy to understand.<br>
 The css might be cramped up will soon try to fix these issues.<br>
 <br><br>
-Here is my <a href="https://codepen.io/zeus17">Codepen</a> and here is my <a href="https://replit.com/@Meheer007">Replit</a> account and this is my Instagram account
+Here is my <a href="https://codepen.io/zeus17">Codepen</a> and here is my <a href="https://replit.com/@Meheer007">Replit</a> account and this is my <a href="https://www.instagram.com/meheer_007/?hl=en">Instagram</a> account. If you wanna ask me anything abt this pls could text me there.
 <br><br>
 THANK YOU
