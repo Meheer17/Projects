@@ -1,6 +1,6 @@
 # Projects
 
-I've made made 6 projects under ReactJs and they are :
+These are some of my projects made with ReactJs :
 <ul>
   <li><a href="https://codepen.io/zeus17/full/VwbPGvx">Quote Machine</a></li>
   <li><a href="https://codepen.io/zeus17/full/MWmmGRe">Markdown Previwer</a></li>
